@@ -1,4 +1,3 @@
-/* This part is global */
 * {
   box-sizing: content-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,10 +9,6 @@ h1 {
 body {
   margin: 0;
 }
-a {
-  text-decoration: none;
-}
-/* This part is header and nav */
 header {
   display: flex;
   justify-content: space-between;
@@ -24,6 +19,9 @@ header {
 }
 .page-header {
   color: #335576;
+}
+a {
+  text-decoration: none;
 }
 .nav__list {
   display: flex;
@@ -40,50 +38,4 @@ header {
 .nav__item--highlight {
   border-bottom: 4px solid #db7a4e;
   padding-bottom: 0.5rem;
-}
-/* This part is footer */
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 13.1rem;
-  padding-right: 12.8rem;
-  padding-top: 2rem;
-  background-color: #fefaf5;
-}
-.footer__info--days {
-  display: flex;
-  justify-content: space-between;
-}
-.footer__hours--card {
-  display: flex;
-  flex-direction: column;
-}
-.footer__title,
-.footer__detail {
-  color: #335576;
-}
-.footer__info {
-  font-size: 0.5rem;
-  margin-top: 0;
-  color: #db7a4e;
-}
-.footer__detail {
-  font-size: 0.8rem;
-  margin-top: 0;
-}
-.footer__hours--card {
-  padding-right: 2rem;
-}
-
-.footer__social {
-  width: 9rem;
-}
-.footer__social--list {
-  height: 2.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer__icon {
-  height: 25px;
 }
