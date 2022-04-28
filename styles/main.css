@@ -1,3 +1,4 @@
+/* This part for hero */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -28,4 +29,44 @@
   text-align: center;
   margin-top: 2rem;
   color: white;
+}
+
+/* This part for places card */
+.places,
+.places__content {
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+}
+.places__title {
+  color: #335576;
+}
+.places__content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+.places__content--hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+}
+.places__content--iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+}
+.places__content--greece {
+  background-image: url(../assets/Images/greece.jpg);
+}
+.places__content--card {
+  background-size: 100%;
+  height: 21rem;
+  width: 14rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+}
+.places__content--name {
+  color: white;
+  padding-right: 1rem;
 }
